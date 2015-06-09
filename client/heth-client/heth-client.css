@@ -1,0 +1,46 @@
+/*************Transaction Factory***************/
+#publish-transaction {
+	margin-top: 20px;
+}
+
+
+/*************Address Management***************/
+#priv-addr-hide {
+	background: -webkit-gradient(linear,left top,right top,color-stop(0, #4d4d4d),color-stop(0.4, #4d4d4d),color-stop(0.5, white),color-stop(0.6, #4d4d4d),color-stop(1, #4d4d4d)); 
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-animation: slidetounlock 5s infinite;
+  	padding: 0;
+  	width: 200%;
+}
+
+@-webkit-keyframes slidetounlock {
+  	0% {
+    		background-position: -720px 0;
+  	}
+  	100% {
+    		background-position: 720px 0;
+  	}
+}
+
+.slider {
+	display:block;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	font-size:20px;
+	color:#fff;line-height:100px;text-align:center;text-decoration:none;background:#aaa}.menu:hover{color:#ccc;text-decoration:none;background:#fff}
+
+#priv-addr-show {
+	display: none;
+	margin-bottom: 20px;
+}
+
+#priv-key {
+	display: inline;
+	margin: 20px;
+}
+
+#new-pub-addr:hover {
+	color: green;
+}
